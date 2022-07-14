@@ -1,22 +1,30 @@
 {
     "name": "lazuli",
     "displayName": "Lazuli",
+    "version": "1.0.0",
     "description": "A minimalist blue-gray based theme.",
-    "version": "0.0.2",
     "publisher": "IanGaunt",
-    "repository": {},
-    "engines": {
-        "vscode": "^1.69.0"
+    "author" : {
+        "name" : "Ian"
     },
     "categories": [
         "Themes"
     ],
+    "license": "See LICENSE file",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/i9nn/lazuli.git"
+      },
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
     "contributes": {
         "themes": [
             {
-                "label": "17",
+                "label": "lazuli",
                 "uiTheme": "vs-dark",
-                "path": "./themes/17-color-theme.json"
+                "path": "./themes/lazuli-color-theme.json"
             }
         ]
     }
