@@ -1,0 +1,23 @@
+{
+    "name": "lazuli",
+    "displayName": "Lazuli",
+    "description": "A minimalist blue-gray based theme.",
+    "version": "0.0.2",
+    "publisher": "IanGaunt",
+    "repository": {},
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "17",
+                "uiTheme": "vs-dark",
+                "path": "./themes/17-color-theme.json"
+            }
+        ]
+    }
+}
